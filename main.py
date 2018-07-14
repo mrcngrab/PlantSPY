@@ -12,7 +12,7 @@ def main():
     GPIO.setup(17,GPIO.OUT)
     GPIO.output(17,0)
 #Sensor setup
-    s = Sensor(pin = 14)
+    s = Sensor(pin = 14,is_sw_pull_up = False)
 
 if __name__ == "__main__":
     main()
