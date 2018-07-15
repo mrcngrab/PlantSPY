@@ -13,7 +13,7 @@ def main():
     GPIO.output(17,0)
 #Sensor setup
     s = Sensor(pin = 14)
-
+    s.read()
 if __name__ == "__main__":
     main()
 
